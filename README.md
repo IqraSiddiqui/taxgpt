@@ -2,7 +2,7 @@
 
 Welcome to the W2 form parser. This project is created as part of my recruitment assignment at TaxGpt. In this file, you can find basic setup, some major dependencies and and overview of the project's workflow.
 
-## About FND
+## About W2 form parser
 
 W2 parser is the web-based application designed to allow uploading of a scanned copy of W2 form. It uses Nanonets OCR API to extract data from the uploaded file and gpt3.5-turbo for interactive querying on the extracted W2 data. The application is hosted on netlify and can be accessed at:
 https://taxgpt-assignment.netlify.app/
@@ -21,25 +21,25 @@ To get started with this project, follow these steps:
 
 1. Cloning the repository
 
-`git clone https://github.com/DJDarkCyber/Fake-News-Detector`
+`git clone https://github.com/IqraSiddiqui/taxgpt`
 
 2. Install the required libraries for python
 
-`cd Fake-News-Detector/app/FakeNewsDetectorAPI/ && pip install -r requirements.txt`
+`cd taxgpt/w2parser/ && pip install -r requirements.txt`
 
 3. Install the required libraries for js
 
-`cd ../fake-news-detector-frontend && npm install`
+`cd ../w2_front && npm install`
 
 4. Deployment
 
 Open terminal and cd to project root folder and run
 
-`cd /app/FakeNewsDetectorAPI/ && python manage.py runserver`
+`cd /taxgpt/w2parser/ && python manage.py runserver`
 
 Open another terminal and cd to project root folder and run
 
-`cd /app/fake-news-detector-frontend/ && npm start` or simply access it through the netlify link provided above
+`cd /taxgpt/w2_front/ && npm start` or simply access it through the netlify link provided above
 
 All set if everything running without errors. Now the deployed web application should open in a browser. If not, open a browser and navigate to http://localhost:3000
 
