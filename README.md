@@ -4,7 +4,7 @@ Welcome to the W2 form parser. This project is created as part of my recruitment
 
 ## About W2 form parser
 
-W2 parser is the web-based application designed to allow uploading of a scanned copy of W2 form. It uses Nanonets OCR API to extract data from the uploaded file and gpt3.5-turbo for interactive querying on the extracted W2 data. The application is hosted on netlify and can be accessed at:
+W2 parser is the web-based application designed to allow uploading of a scanned copy of W2 form. It uses Nanonets OCR API to extract data from the uploaded file and gpt3.5-turbo for interactive querying on the extracted W2 data, stored in the sqlite database. The application is hosted on netlify and can be accessed at:
 https://taxgpt-assignment.netlify.app/
 
 ## How to Use
