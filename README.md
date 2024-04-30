@@ -43,4 +43,8 @@ Open another terminal and cd to project root folder and run
 
 All set if everything running without errors. Now the deployed web application should open in a browser. If not, open a browser and navigate to http://localhost:3000
 
-Happy coding!
+5. Dependencies
+- React '18.3.1'
+- Django '5.0.4'
+- Langchain '0.1.16'
+- g4f '0.3.0.7'
