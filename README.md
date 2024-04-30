@@ -10,10 +10,10 @@ https://taxgpt-assignment.netlify.app/
 ## How to Use
 
 - Choose a pdf file of the scanned W2 form from device, click on the "Upload" button. The upload response will be displayed. 
-- Ask any question regarding the file. To make it easy for the LLM to answer, please begin your prompt with "My Employee SSA number is <enter SSA number>. and then the question "How much is my gross pay?" i.e.:
+- Ask any question regarding the file. To make it easy for the LLM to answer, please begin your prompt with "My Employee SSA number is <enter SSA number>. and then your desired question, e.g. "How much is my gross pay?" i.e.:
   "My Employee SSA number is <enter SSA number>. How much is my gross pay?"
   For general questions that require taking in account of all entries irrespective of employers, you can ask directly like "What is the average of social security tax"
-- Please note it might take a little while to respond, sometimes you might have to ask twice to get a response as LLM is currently an amateur.
+- Please note it might take a little while to respond, sometimes you might have to ask twice to get a good response as LLM is currently an amateur.
 
 ## Getting Started
 
